@@ -1,0 +1,4 @@
+edge-tts>=7.2,<8
+faster-whisper>=1.2,<2
+# faster-whisper 1.2.x passes metadata_errors to PyAV; PyAV 19 removed it.
+av==15.1.0
